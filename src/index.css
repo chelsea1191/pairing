@@ -1,4 +1,9 @@
-body {
+*{
+  text-align: center;
+  margin: 10px;
+}
+
+ckbody {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -44,4 +49,13 @@ code {
   height: 25px;
   background: #4CAF50;
   cursor: pointer;
+}
+
+.square{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px black solid;
 }
