@@ -59,3 +59,8 @@ code {
   background-color: white;
   border: 1px black solid;
 }
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

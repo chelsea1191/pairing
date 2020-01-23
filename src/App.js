@@ -26,7 +26,7 @@ function App() {
   }
 
 
-  const rgbValue = {backgroundColor: `rgb(${redValue},${greenValue},${blueValue})`}
+  const rgbValue = { backgroundColor: `rgb(${redValue},${greenValue},${blueValue})` }
 
 
 
@@ -34,16 +34,16 @@ function App() {
     <div>
 
       <div className="slidecontainer">
-        <p>Color slider:</p>
-        <input className="slider" type="range" min={0} max={255} value={redValue} onChange={handleRedChange} />
+        <p>Red Color slider:</p>
+        <div className="row"><input className="slider" type="range" min={0} max={255} value={redValue} onChange={handleRedChange} />{redValue}</div>
       </div>
       <div className="slidecontainer">
-        <p>Color slider:</p>
-        <input className="slider" type="range" min={0} max={255} value={greenValue} onChange={handleGreenChange} />
+        <p>Green Color slider:</p>
+        <div className="row"><input className="slider" type="range" min={0} max={255} value={greenValue} onChange={handleGreenChange} />{greenValue}</div>
       </div>
       <div className="slidecontainer">
-        <p>Color slider:</p>
-        <input className="slider" type="range" min={0} max={255} value={blueValue} onChange={handleBlueChange} />
+        <p>Blue Color slider:</p>
+        <div className="row"><input className="slider" type="range" min={0} max={255} value={blueValue} onChange={handleBlueChange} />{blueValue}</div>
       </div>
 
       <div className="square" style={rgbValue}>
