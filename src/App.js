@@ -1,12 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello!git add .</h1>
+    <div>
+
+      <div class="slidecontainer">
+        <p>Color slider:</p>
+        <input type="range" min="1" max="100" value="50"></input>
+      </div>
+
+
     </div>
+
+
   );
 }
 
